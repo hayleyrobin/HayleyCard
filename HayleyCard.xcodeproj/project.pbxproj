@@ -11,6 +11,8 @@
 		61231443279F3BF200550D91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61231442279F3BF200550D91 /* ContentView.swift */; };
 		61231445279F3BF400550D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61231444279F3BF400550D91 /* Assets.xcassets */; };
 		61231448279F3BF400550D91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61231447279F3BF400550D91 /* Preview Assets.xcassets */; };
+		61231450279F409000550D91 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6123144F279F409000550D91 /* Pacifico-Regular.ttf */; };
+		61231455279F4AF800550D91 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61231454279F4AF800550D91 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		61231442279F3BF200550D91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61231444279F3BF400550D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61231447279F3BF400550D91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6123144F279F409000550D91 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		61231451279F415A00550D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		61231454279F4AF800550D91 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +56,12 @@
 		6123143F279F3BF200550D91 /* HayleyCard */ = {
 			isa = PBXGroup;
 			children = (
+				61231451279F415A00550D91 /* Info.plist */,
+				6123144E279F407F00550D91 /* Fonts */,
 				61231440279F3BF200550D91 /* HayleyCardApp.swift */,
 				61231442279F3BF200550D91 /* ContentView.swift */,
 				61231444279F3BF400550D91 /* Assets.xcassets */,
+				61231454279F4AF800550D91 /* InfoView.swift */,
 				61231446279F3BF400550D91 /* Preview Content */,
 			);
 			path = HayleyCard;
@@ -65,6 +73,14 @@
 				61231447279F3BF400550D91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6123144E279F407F00550D91 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6123144F279F409000550D91 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61231450279F409000550D91 /* Pacifico-Regular.ttf in Resources */,
 				61231448279F3BF400550D91 /* Preview Assets.xcassets in Resources */,
 				61231445279F3BF400550D91 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +156,7 @@
 			files = (
 				61231443279F3BF200550D91 /* ContentView.swift in Sources */,
 				61231441279F3BF200550D91 /* HayleyCardApp.swift in Sources */,
+				61231455279F4AF800550D91 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = 74JCV65TJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HayleyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = 74JCV65TJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HayleyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
